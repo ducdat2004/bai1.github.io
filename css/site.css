@@ -1,0 +1,412 @@
+*
+{
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    margin: 0;
+    
+}
+.hehe
+{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-around;
+}
+.top{
+    display: flex;
+    flex-direction: row;
+    justify-content:center;
+    flex-wrap:wrap;
+    position: relative;
+    height: 1639px;
+    background-color: rgb(242,242,242);
+}
+.top .s
+{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+    position: absolute;
+    top: 4px;
+    left: 271px;
+    color: rgb(220,235,235);
+    cursor: pointer;
+    margin: 3px;
+}
+.top .s ul 
+{
+    display: flex;
+    flex-direction: row;
+    padding: auto;
+    margin: auto;
+    list-style: none;
+    justify-content: space-between;
+}
+.top .s ul li
+{
+    padding: 10px;
+    font-size: 17px;
+    margin: auto;
+}
+.top .s1
+{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+    position: absolute;
+    top: 4px;
+    left: 1077px;
+    color: rgb(220,235,235);
+    cursor: pointer;
+    margin: 3px;
+}
+.top .s1 ul 
+{
+    display: flex;
+    flex-direction: row;
+    padding: auto;
+    margin: auto;
+    list-style: none;
+    justify-content: space-between;
+}
+.top .s1 ul li
+{
+    padding: 10px;
+    font-size: 17px;
+    margin: auto;
+}
+.top .but
+{
+    display: flex;
+    background-color: rgb(78,91,111);
+    position: relative;
+    height: 278px;
+    width: 983px;
+    top: -465px;
+    margin: auto;
+    padding: 0;
+    justify-content: space-between;
+    
+}
+.top .but .slider1
+{
+    position: absolute;
+    left: 248px;
+    cursor: pointer;
+}
+.top .but .ie
+{
+    position: absolute;
+    left: 747px;
+    top: -6px;
+    cursor: pointer;
+}
+.top .but .taigame
+{
+    top: 7px;
+    position: absolute;
+    cursor: pointer;
+}
+.top .but .na
+{
+    position: absolute;
+    left: 0px;
+    top: 139px;
+    border: 10cm;
+    background-color: aquamarine;
+    cursor: pointer;
+}
+.top .longden
+{
+    position: absolute;
+    top: 9px;
+    left: -76px;
+}
+.top .hotline
+{
+    position: absolute;
+    top: 236px;
+    left: 752px;
+    cursor: pointer;
+}
+.top .gift
+{
+    position: absolute;
+    left: 468px;
+    top: 786px;
+}
+.top .bg 
+{
+    position: absolute;
+    left: 1219px;
+    top: 786px;
+}
+ul li:hover{
+    background-color: aquamarine;
+    list-style: none;
+    display: inline-block;
+    background: rgb(197, 153, 71);
+    color: #fff;
+    padding: 8px 10px;
+    margin-right: 10px;
+}
+.top .new
+{
+    position: absolute;
+    left: 468px;
+    top: -367px;
+    height: 664px;
+    background-color:  rgb(27,44,75);
+    position: relative;
+    width: 745px;
+}
+.top .new .op
+{
+    position: absolute;
+    display: flex;
+    flex-wrap: wrap;
+    flex-direction: row;
+    top: -5px;
+    left: -38px;
+}
+.top .new .op ul
+{
+    display: flex;
+    flex-direction: row;
+    padding: auto;
+    margin: auto;
+    list-style: none;
+}
+.top .new .op ul li
+{
+    padding: 10px;
+    margin: 15px;
+    color: wheat;
+    cursor: pointer;
+}
+.top .new .event
+{
+    display: flex;
+    background-color: rgb(235, 242, 240);
+    height: 586px;
+    width: 725px;
+    left: 10px;
+    position: absolute;
+}
+
+.top .new .event .dong1
+{
+    display: flex;
+    flex-direction: row;
+    background-color:none;
+    height: 137px;
+    width: 702px;
+    left: 10px;
+    position: absolute;
+    top: 10px;
+}
+.top .new .event .dong1 .dangnhap
+{
+    display: flex;
+    flex-direction: row;
+    height: 124px;
+    border: solid rgb(218,190,145);
+    border-width: 7px;
+    width: 129px;
+}
+.top .new .event .dong1 .t1 
+{
+    display: flex;
+    flex-direction: row;
+    text-transform: uppercase;
+    color: red;
+    background-color: none;
+    border-left: 6px solid red;
+    left: 160px;
+    position: absolute;
+    margin-top: 0px;
+    height: 53px;
+    width: 407px;
+    padding-left: 9px;
+    font-size: 19px;
+}
+.top .new .event .dong1 .t2
+{
+    left: 160px;
+    position: absolute;
+    margin-top: 54px;
+    font-style: italic;
+    font-weight: lighter;
+    color: rgb(107, 101, 101);
+} 
+.top .new .event .dong1 .t3
+{
+    margin-left: 79px;
+    position: absolute;
+    padding: 81px;
+    width: 500px;
+    color: rgb(85, 80, 80);
+}
+.top .new .event .dong2
+{
+    display: flex;
+    flex-direction: row;
+    background-color: none;
+    height: 137px;
+    width: 702px;
+    position: absolute;
+    left: 10px;
+    top: 172px;
+    cursor: pointer;
+}
+.top .new .event .dong2 .sukien
+{
+    display: flex;
+    flex-direction: row;
+    height: 124px;
+    border: solid rgb(218,190,145);
+    border-width: 7px;
+    width: 129px;
+    cursor: pointer;
+    position: absolute;
+}
+.top .new .event .dong2 .t1 
+{
+    display: flex;
+    flex-direction: row;
+    text-transform: uppercase;
+    color: red;
+    background-color: none;
+    border-left: 6px solid red;
+    left: 160px;
+    position: absolute;
+    margin-top: 0px;
+    height: 29px;
+    width: 407px;
+    padding-left: 9px;
+    font-size: 19px;
+    cursor: pointer;
+}
+.top .new .event .dong2 .t2
+{
+    left: 160px;
+    position: absolute;
+    margin-top: 30px;
+    font-style: italic;
+    font-weight: lighter;
+    cursor: pointer;
+    color: rgb(107, 101, 101);
+} 
+.top .new .event .dong2 .t3
+{
+    margin-left: 100px;
+    position: absolute;
+    padding: 59px;
+    width: 500px;
+    color: rgb(85, 80, 80);
+    cursor: pointer;
+}
+.top .new .event .dong3
+{
+    display: flex;
+    flex-direction: row;
+    background-color: none;
+    height: 137px;
+    width: 702px;
+    position: absolute;
+    left: 10px;
+    top: 337px;
+    cursor: pointer;
+
+}
+.top .new .event .dong3 .sukient3
+{
+    display: flex;
+    flex-direction: row;
+    height: 129px;
+    border: solid rgb(218,190,145);
+    border-width: 7px;
+    width: 129px;
+    position: absolute;
+    cursor: pointer;
+}
+.top .new .event .dong3 .t1 
+{
+    display: flex;
+    flex-direction: row;
+    text-transform: uppercase;
+    color: red;
+    background-color: none;
+    border-left: 6px solid red;
+    left: 160px;
+    position: absolute;
+    margin-top: 0px;
+    height: 29px;
+    width: 407px;
+    padding-left: 9px;
+    font-size: 19px;
+    cursor: pointer;
+}
+.top .new .event .dong3 .t2
+{
+    left: 160px;
+    position: absolute;
+    margin-top: 30px;
+    font-style: italic;
+    font-weight: lighter;
+    color: rgb(107, 101, 101);
+    cursor: pointer;
+} 
+.top .new .event .dong3 .t3
+{
+    margin-left: 100px;
+    position: absolute;
+    padding: 59px;
+    width: 500px;
+    color: rgb(85, 80, 80);
+    cursor: pointer;
+}
+.top .new .event .button1
+{
+    background-color: rgb(26,43,74);
+    position: absolute;
+    left: 376px;
+    top: 515px;
+    padding: 15px 32px;
+    text-align: center;
+    display: inline-block;
+    cursor: pointer;
+    color: gray;
+    border: solid gray;
+}
+.top .new .event .button2
+{
+    background-color: rgb(26,43,74);
+    position: absolute;
+    left: 523px;
+    top: 515px;
+    padding: 15px 32px;
+    text-align: center;
+    display: inline-block;
+    cursor: pointer;
+    color: gray;
+    border: solid gray;
+}
+ .bottom
+{
+    display: flex;
+    position: relative;
+    justify-content: center;
+    text-align: center;
+}
+ .bottom  .lg
+{   
+    display: flex;
+    position: absolute;
+    top: 117px;
+    left: 478px;
+}
+.bottom  .text
+{
+    position: absolute;
+    top: 128px;
+    font-size: 14px;
+}
